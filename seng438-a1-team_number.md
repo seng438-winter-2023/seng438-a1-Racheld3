@@ -2,12 +2,12 @@
 
 **Lab. Report \#1 – Introduction to Testing and Defect Tracking**
 
-| Group: Group Number      |
+| Group: Group Number 10
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Student 1 name Rachel Dalton  
+| Student 2 name Ana Perrone   
+| Student 3 name Saina Ghasemian-Roudsari
+| Student 4 name Isaiah Lemieux   
 
 
 **Table of Contents**
