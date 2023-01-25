@@ -40,8 +40,10 @@ functional testing before this lab
 saina
 Testing pair 1: Saina and Rachel
 Exploratory testing plan:
-Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B. 
+Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B.
+
 Functions being targeted:
+
 
 
 Testing pair 2: Isaiah and Ana
@@ -68,7 +70,7 @@ isaiah
 Text…
 
 # Difficulties encountered, challenges overcome, and lessons learned
-To start both pairs that were doing exploratory testing were overwelmed. This was due to the ATM simulation being new to us causing a bit of a slow start on the first couple tests, but the challenege was overcome as the more we used the system it became very quick to navigate through by the time we got to regression testing stage. Another difficulty encountered was documenting bugs using the issue tracking system Jira as this was a system that was new to all memebers of the group. The last diffculty which was very time consuming was that both pairs spent a bit too much time doing exploratory testing and attempting to test every common path/excetional path that could cause bugs. One of most important lesson learned was in regards to using the Jira. Our group learned that when reporting issues it would have been beneficial to note which version of the simulator we were using. Another extremly important lesson learned was that when going through manual scripted testing writing down which card was being used, which type of transaction was made, and how much money we had originally put in. As at the start we did not write down each of the steps we were using and we quickly realized that was making it much more difficult to add details in the bug reports. As for example Card 1 and Card 2 would have some bugs that were different and same with doing different transactions in each of these cards and not keeping track of which card we were in for example would cause us to have difficulty determining the specifics of bugs.
+To start both pairs that were doing exploratory testing were a bit overwelmed. This was due to the ATM simulation being new to us causing a bit of a slow start on the first couple tests, but the challenge was overcome as the more we used the system it became very quick to navigate through by the time we got to regression testing stage. Another difficulty encountered was documenting bugs using the issue tracking system Jira as this was a system that was new to all memebers of the group. The last diffculty which was very time consuming was that both pairs spent a bit too much time doing exploratory testing and attempting to test every common path/excetional path that could cause bugs. One of most important lesson learned was in regards to using the Jira. Our group learned that when reporting issues it would have been beneficial to note which version of the simulator we were using. Another extremly important lesson learned was that we should write which steps we are taking when going through manual scripted testing such as writing down which card was being used, which type of transaction was made, and how much money we had originally put in. As at the start we did not write down each of the steps we were using and we quickly realized that was making it much more difficult to add details in the bug reports. As for example Card 1 and Card 2 would have some bugs that were different and same with doing different transactions in each of these cards and not keeping track of which card we were in for example would cause us to have difficulty determining the specifics of bugs. This showed our group that you are not able to make any assumptions when testing as we assumed the cards both had the same bugs which is why we did not keep track of the steps at first.
 
 # Comments/feedback on the lab and lab document itself
 ana
