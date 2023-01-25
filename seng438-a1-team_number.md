@@ -39,8 +39,7 @@ functional testing before this lab
 # High-level description of the exploratory testing plan
 Testing pair 1: Saina and Rachel
 Exploratory testing plan:
-Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B. We plan to approach the ATM simulator in functions we want to target. Within those functions tesing each of the test with the most common paths, and exceptional paths we can think of to ensure the ATM is able to make the correct type of transactions based on what the user requests. We will also test incorrect inputs to ensure the ATM does not process with incorrect inputs. Then recording any incorrect outputs based on the input requirments in our bug report software (Jira). 
-Functions being targeted:
+Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B. We plan to approach the ATM simulator in functions we want to target. Within those functions tesing each of the test with the most common paths, and exceptional paths we can think of to ensure the ATM is able to make the correct type of transactions based on what the user requests. We will also test incorrect inputs to ensure the ATM does not process with incorrect inputs. Then recording any incorrect outputs based on the input requirments in our bug report software (Jira).                                                                                             Functions being targeted:
 1. We want to ensure each of the buttons in the simulator work. The buttons to test are to turn system on, off, enter, clear, cancel and show log. These buttons will be pressed at random times to ensure they can always correctly work.
 2. Testing incorrect card inputs/correct card inputs.
 3. Testing both Card 1 and Card 2
