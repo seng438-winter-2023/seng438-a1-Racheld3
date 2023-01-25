@@ -37,14 +37,20 @@ An introduction of your lab work, and what you knew about exploratory and manual
 functional testing before this lab
 
 # High-level description of the exploratory testing plan
-saina
 Testing pair 1: Saina and Rachel
 Exploratory testing plan:
-Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B.
-
+Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B. We plan to approach the ATM simulator in functions we want to target. Within those functions tesing each of the test with the most common paths, and exceptional paths we can think of to ensure the ATM is able to make the correct type of transactions based on what the user requests. We will also test incorrect inputs to ensure the ATM does not process with incorrect inputs. Then recording any incorrect outputs based on the input requirments in our bug report software (Jira). 
 Functions being targeted:
-
-
+Function 1:
+We want to ensure each of the buttons in the simulator work. The buttons to test are to turn system on, off, enter, clear, cancel and show log. These buttons will be pressed at random times to ensure they can always correctly work.
+Function 2: 
+Testing incorrect card inputs/correct card inputs.
+Function 3:
+Testing both Card 1 and Card 2
+Function 4: 
+Testing incorrect pins for correct cards.
+Function 5:
+Testing all four transaction types with both cards: withdrawal, deposit, transfer, and balance inquiry. Within each of the transaction types ensuring the correct amount of money is taken out, put in, transfered, and displayed based on the amounts we select.
 
 Testing pair 2: Isaiah and Ana
 Exploratory testing plan:
@@ -52,8 +58,6 @@ Exploratory testing plan:
 2. For each requirement, run a series of tests that ensure the coverage of a common input, an edge-case input, an input that should pass, and an input that should fail. Record the result next to the test. While the tests are being run, display the document containing the list of the functional requirements next to the ATM machine to ensure no functionalities are neglected. Highlight requirements as they are tested.
 3. For each test that fails, create in issue and description on Jira.
  
-
-
 # Comparison of exploratory and manual functional testing
 rachel, saina
 Text…
@@ -70,8 +74,9 @@ isaiah
 Text…
 
 # Difficulties encountered, challenges overcome, and lessons learned
-To start both pairs that were doing exploratory testing were a bit overwelmed. This was due to the ATM simulation being new to us causing a bit of a slow start on the first couple tests, but the challenge was overcome as the more we used the system it became very quick to navigate through by the time we got to regression testing stage. Another difficulty encountered was documenting bugs using the issue tracking system Jira as this was a system that was new to all memebers of the group. The last diffculty which was very time consuming was that both pairs spent a bit too much time doing exploratory testing and attempting to test every common path/excetional path that could cause bugs. One of most important lesson learned was in regards to using the Jira. Our group learned that when reporting issues it would have been beneficial to note which version of the simulator we were using. Another extremly important lesson learned was that we should write which steps we are taking when going through manual scripted testing such as writing down which card was being used, which type of transaction was made, and how much money we had originally put in. As at the start we did not write down each of the steps we were using and we quickly realized that was making it much more difficult to add details in the bug reports. As for example Card 1 and Card 2 would have some bugs that were different and same with doing different transactions in each of these cards and not keeping track of which card we were in for example would cause us to have difficulty determining the specifics of bugs. This showed our group that you are not able to make any assumptions when testing as we assumed the cards both had the same bugs which is why we did not keep track of the steps at first.
+To start both pairs that were doing exploratory testing were a bit overwelmed. This was due to the ATM simulation being new to us causing a bit of a slow start on the first couple tests, but the challenge was overcome as the more we used the system it became very quick to navigate through by the time we got to regression testing stage. Another difficulty encountered was documenting bugs using the issue tracking system Jira as this was a system that was new to all memebers of the group. The last diffculty which was very time consuming was that both pairs spent a bit too much time doing exploratory testing and attempting to test every common path/excetional path that could cause bugs. One of most important lesson learned was in regards to using the Jira. Our group learned that when reporting issues it would have been beneficial to note which version of the simulator we were using. Another extremly important lesson learned was that we should write which steps we are taking when going through exploratory scripted testing such as writing down which card was being used, which type of transaction was made, and how much money we had originally put in. As at the start we did not write down each of the steps we were using and we quickly realized that was making it much more difficult to add details in the bug reports. As for example Card 1 and Card 2 would have some bugs that were different and same with doing different transactions in each of these cards and not keeping track of which card we were in for example would cause us to have difficulty determining the specifics of bugs. This showed our group that you are not able to make any assumptions when testing as we assumed the cards both had the same bugs which is why we did not keep track of the steps at first.
 
 # Comments/feedback on the lab and lab document itself
 ana
-Text…
+Our group found this lab very useful practice for learning how to a use issue tracking system and learning the importance of writing effective bug reports, and how having detailed bug reports helps you when you are resolving bugs.
+
