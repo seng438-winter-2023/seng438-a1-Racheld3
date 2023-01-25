@@ -76,5 +76,5 @@ To start both pairs that were doing exploratory testing were a bit overwelmed. T
 
 # Comments/feedback on the lab and lab document itself
 ana
-Our group found this lab very useful practice for learning how to a use issue tracking system and learning the importance of writing effective bug reports, and how having detailed bug reports helps you when you are resolving bugs.
+Our group found this lab a very useful practice for learning how to a use issue tracking system and learning the importance of writing effective bug reports, and how having detailed bug reports helps you when you are resolving bugs. 
 
