@@ -38,6 +38,18 @@ functional testing before this lab
 
 # High-level description of the exploratory testing plan
 saina
+Testing pair 1: Saina and Rachel
+Exploratory testing plan:
+Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B. 
+Functions being targeted:
+
+
+Testing pair 2: Isaiah and Ana
+Exploratory testing plan:
+1. Read high-level requirements for ATM service in Appendix B of the lab handout. Our plan is to create a limited amount of test cases for all functionalities of the ATM.
+2. For each requirement, run a series of tests that ensure the coverage of a common input, an edge-case input, an input that should pass, and an input that should fail. Record the result next to the test. While the tests are being run, display the document containing the list of the functional requirements next to the ATM machine to ensure no functionalities are neglected. Highlight requirements as they are tested.
+3. For each test that fails, create in issue and description on Jira.
+ 
 
 
 # Comparison of exploratory and manual functional testing
@@ -56,8 +68,7 @@ isaiah
 Text…
 
 # Difficulties encountered, challenges overcome, and lessons learned
-saina
-Text…
+To start both pairs that were doing exploratory testing were overwelmed. This was due to the ATM simulation being new to us causing a bit of a slow start on the first couple tests, but the challenege was overcome as the more we used the system it became very quick to navigate through by the time we got to regression testing stage. Another difficulty encountered was documenting bugs using the issue tracking system Jira as this was a system that was new to all memebers of the group. The last diffculty which was very time consuming was that both pairs spent a bit too much time doing exploratory testing and attempting to test every common path/excetional path that could cause bugs. One of most important lesson learned was in regards to using the Jira. Our group learned that when reporting issues it would have been beneficial to note which version of the simulator we were using. Another extremly important lesson learned was that when going through manual scripted testing writing down which card was being used, which type of transaction was made, and how much money we had originally put in. As at the start we did not write down each of the steps we were using and we quickly realized that was making it much more difficult to add details in the bug reports. As for example Card 1 and Card 2 would have some bugs that were different and same with doing different transactions in each of these cards and not keeping track of which card we were in for example would cause us to have difficulty determining the specifics of bugs.
 
 # Comments/feedback on the lab and lab document itself
 ana
