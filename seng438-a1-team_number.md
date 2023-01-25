@@ -4,10 +4,10 @@
 
 | Group: Group Number 10
 |-----------------|
-| Student 1 name Rachel Dalton  
-| Student 2 name Ana Perrone   
-| Student 3 name Saina Ghasemian-Roudsari
-| Student 4 name Isaiah Lemieux   
+| Student 1: Rachel Dalton  
+| Student 2: Ana Perrone   
+| Student 3: Saina Ghasemian-Roudsari
+| Student 4: Isaiah Lemieux   
 
 
 **Table of Contents**
