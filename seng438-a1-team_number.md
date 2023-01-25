@@ -41,16 +41,11 @@ Testing pair 1: Saina and Rachel
 Exploratory testing plan:
 Our plan is to first read and understand the requirments for the ATM simulation system as outlined in Appendix B. We plan to approach the ATM simulator in functions we want to target. Within those functions tesing each of the test with the most common paths, and exceptional paths we can think of to ensure the ATM is able to make the correct type of transactions based on what the user requests. We will also test incorrect inputs to ensure the ATM does not process with incorrect inputs. Then recording any incorrect outputs based on the input requirments in our bug report software (Jira). 
 Functions being targeted:
-Function 1:
-We want to ensure each of the buttons in the simulator work. The buttons to test are to turn system on, off, enter, clear, cancel and show log. These buttons will be pressed at random times to ensure they can always correctly work.
-Function 2: 
-Testing incorrect card inputs/correct card inputs.
-Function 3:
-Testing both Card 1 and Card 2
-Function 4: 
-Testing incorrect pins for correct cards.
-Function 5:
-Testing all four transaction types with both cards: withdrawal, deposit, transfer, and balance inquiry. Within each of the transaction types ensuring the correct amount of money is taken out, put in, transfered, and displayed based on the amounts we select.
+1. We want to ensure each of the buttons in the simulator work. The buttons to test are to turn system on, off, enter, clear, cancel and show log. These buttons will be pressed at random times to ensure they can always correctly work.
+2. Testing incorrect card inputs/correct card inputs.
+3. Testing both Card 1 and Card 2
+4. Testing incorrect pins for correct cards.
+5. Testing all four transaction types with both cards: withdrawal, deposit, transfer, and balance inquiry. Within each of the transaction types ensuring the correct amount of money is taken out, put in, transfered, and displayed based on the amounts we select.
 
 Testing pair 2: Isaiah and Ana
 Exploratory testing plan:
