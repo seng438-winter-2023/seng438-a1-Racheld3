@@ -55,9 +55,9 @@ Exploratory testing plan:
 3. For each test that fails, create in issue and description on Jira.
  
 # Comparison of exploratory and manual functional testing
-This lab started with exploratory testing, which focuses on simple functionality. A human tester goes through the code and creates realistic scenarios to test the basic functionalities of the software.There is no formal instructions, rather the tester "explores" the software. This type of testing relies on varying things, such as input combinations, the order of inputs, and legal vs illegal inputs. Other factors such as the history of inputs and routes through the environment.
+This lab started with exploratory testing, which focuses on simple functionality. A human tester goes through the code and creates realistic scenarios to test the basic functionalities of the software.There is no formal instructions, rather the tester "explores" the software. This type of testing relies on varying things, such as input combinations, the order of inputs, and legal vs illegal inputs. Other factors such as the history of inputs and routes through the environment.This is a great way to find bugs quickly, but
 
-Manual functional testing follows a path that is written by the testers. The script includes test cases and steps that are documented and there is no deviation from the path laid out in the script. This is more of a consisted
+Manual functional testing follows a path that is written by the testers. The script includes test cases and steps that are documented and there is no deviation from the path laid out in the script. This is a more consistent and repeatable testing strategy.   
 
 
 # Notes and discussion of the peer reviews of defect reports
