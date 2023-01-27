@@ -23,11 +23,9 @@
 
 [4 Notes and discussion of the peer reviews of defect reports	1](#_Toc439194680)
 
-[5 How the pair testing was managed and team work/effort was
-divided	1](#_Toc439194681)
+[5 How the pair testing was managed and team work/effort was divided	1](#_Toc439194681)
 
-[6 Difficulties encountered, challenges overcome, and lessons
-learned	1](#_Toc439194682)
+[6 Difficulties encountered, challenges overcome, and lessons learned	1](#_Toc439194682)
 
 [7 Comments/feedback on the lab and lab document itself	1](#_Toc439194683)
 
@@ -61,8 +59,13 @@ Manual functional testing follows a path that is written by the testers. The scr
 
 
 # Notes and discussion of the peer reviews of defect reports
-group
-Text…
+When reviewing each pairs' bug reports in Jira, we found bugs that occured during the testing of critical program functionality were typically discovered by both groups. For example, when attempting to withdraw money from any account, the system would dispense the incorrect amount. This action is understood as one of the most basic functional requirements when it comes to an ATM machine, so it is understandable that both groups tested this performance. 
+
+One group (Saina and Rachel) ran tests on both cards, to note whether errors were consistent between the two, or if it was functional on one card while non-functional on another, or even if different defect were observed on both tests. This differed from the second group (Isaiah and Ana), as their approach involved walking through all functional requirements as set by the lab handout. 
+
+Few tests that one pair had that the other hadn't tested.
+
+Descriptions were relatively similar, both groups gave enough info to recreate the defect. It was simple and straight-forward to go through tests again 
 
 # How the pair testing was managed and team work/effort was divided 
 After reading the lab handout and confirming that everyone had a general understanding of how the program works, expected testing process, and program functionality, we split the group into two pairs. Saina and Rachel, Isaiah and Ana. At this point, we planned to carry out exploratory testing completely separate, without talking about our testing process to avoid risk of a pair being influenced to avoid testing something if the other pair had already done it. In order to do this, we also had to hide all issues entered by members of the other pair so we could start out with a clean slate. Each group would also create a pre-testing plan to use as a guide through the exploratory testing phase on version 1.0 of the ATM program. The plan specified would describe the domain of testing (how much functionality would be tested, and to what depth), and how each test would be carried out.
