@@ -61,7 +61,7 @@ Manual functional testing follows a path that is written by the testers. The scr
 # Notes and discussion of the peer reviews of defect reports
 When reviewing each pairs' bug reports in Jira, we found bugs that occured during the testing of critical program functionality were typically discovered by both groups. For example, when attempting to withdraw money from any account, the system would dispense the incorrect amount. This action is understood as one of the most basic functional requirements when it comes to an ATM machine, so it is understandable that both groups tested this performance. 
 
-One group (Saina and Rachel) ran tests on both cards, to note whether errors were consistent between the two, or if it was functional on one card while non-functional on another, or even if different defect were observed on both tests. This differed from the second group (Isaiah and Ana), as their approach involved walking through all functional requirements as set by the lab handout. 
+One group (Saina and Rachel) ran tests on both cards, to note whether errors were consistent between the two, or if it was functional on one card while non-functional on another, or even if different defect were observed on both tests. This differed from the second group (Isaiah and Ana), as their approach involved walking through all functional requirements as set by Appendix B in the lab handout. 
 
 Few tests that one pair had that the other hadn't tested.
 
